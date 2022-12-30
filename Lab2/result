@@ -1,0 +1,8 @@
+result
+test.sh
+work.sh
+Hello
+total 12
+-rw-r--r-- 1 mshnwq mshnwq  29 Dec 22 07:09 result
+-rw-r--r-- 1 mshnwq mshnwq  21 Dec 22 06:59 test.sh
+-rwxr--r-- 1 mshnwq mshnwq 274 Dec 22 07:05 work.sh
