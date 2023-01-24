@@ -1,0 +1,593 @@
+mshnwq@ubuntu:~/assignment5$ ls
+room_access_control  room_access_control.c  room_access_control.h
+mshnwq@ubuntu:~/assignment5$ ./room_access_control 1 4 5
+Invalid Argumentsmshnwq@ubuntu:~/assignment5$ ./room_access_control 1 2
+Display --> Created 1 Doctors, and 2 Visitors.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V0 wishes to visit the patient, waiting.
+Visitor V0 entered the patient's room, waited for 4048 ms.
+Visitor V0 exited the patient's room, stayed 32 ms.
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 4119 ms.
+Doctor D0 exited the patient's room, stayed 235 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 4735 ms.
+Visitor V1 exited the patient's room, stayed 55 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 811 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V1 ].
+Visitor V1 exited the patient's room, stayed 48 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 1700 ms.
+Doctor D0 exited the patient's room, stayed 142 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V0 wishes to visit the patient, waiting.
+Visitor V0 entered the patient's room, waited for 4644 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V0 ].
+Visitor V0 exited the patient's room, stayed 118 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 3476 ms.
+Doctor D0 exited the patient's room, stayed 97 ms.
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 4360 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V1 ].
+Visitor V1 exited the patient's room, stayed 29 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V0 wishes to visit the patient, waiting.
+Visitor V0 entered the patient's room, waited for 2376 ms.
+Visitor V0 exited the patient's room, stayed 59 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 2007 ms.
+Doctor D0 exited the patient's room, stayed 135 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 2641 ms.
+Visitor V1 exited the patient's room, stayed 113 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V0 wishes to visit the patient, waiting.
+Visitor V0 entered the patient's room, waited for 1815 ms.
+Visitor V0 exited the patient's room, stayed 89 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 2726 ms.
+Display --> In the room: 1 doctor(s) [ D0 ], and 0 visitor(s) [ ].
+Doctor D0 exited the patient's room, stayed 181 ms.
+Visitor V0 wishes to visit the patient, waiting.
+Visitor V0 entered the patient's room, waited for 1715 ms.
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 2137 ms.
+Visitor V0 exited the patient's room, stayed 95 ms.
+Visitor V1 exited the patient's room, stayed 96 ms.
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 144 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V1 ].
+Visitor V1 exited the patient's room, stayed 132 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+^C
+mshnwq@ubuntu:~/assignment5$ ./room_access_control 0
+Invalid number of Doctors. Using random value 36
+Display --> Created 1 Doctors, and 36 Visitors.
+Visitor V10 wishes to visit the patient, waiting.
+Visitor V10 entered the patient's room, waited for 8 ms.
+Visitor V10 exited the patient's room, stayed 7 ms.
+Visitor V16 wishes to visit the patient, waiting.
+Visitor V16 entered the patient's room, waited for 336 ms.
+Visitor V12 wishes to visit the patient, waiting.
+Visitor V12 entered the patient's room, waited for 372 ms.
+Visitor V16 exited the patient's room, stayed 50 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V12 ].
+Visitor V12 exited the patient's room, stayed 128 ms.
+Visitor V9 wishes to visit the patient, waiting.
+Visitor V9 entered the patient's room, waited for 740 ms.
+Visitor V9 exited the patient's room, stayed 4 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V20 wishes to visit the patient, waiting.
+Visitor V20 entered the patient's room, waited for 813 ms.
+Visitor V35 wishes to visit the patient, waiting.
+Visitor V35 entered the patient's room, waited for 817 ms.
+Visitor V12 wishes to visit the patient, waiting.
+Visitor V12 entered the patient's room, waited for 324 ms.
+Visitor V12 exited the patient's room, stayed 15 ms.
+Visitor V35 exited the patient's room, stayed 68 ms.
+Visitor V20 exited the patient's room, stayed 91 ms.
+Visitor V19 wishes to visit the patient, waiting.
+Visitor V19 entered the patient's room, waited for 1065 ms.
+Visitor V19 exited the patient's room, stayed 91 ms.
+Visitor V35 wishes to visit the patient, waiting.
+Visitor V35 entered the patient's room, waited for 300 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V35 ].
+Visitor V11 wishes to visit the patient, waiting.
+Visitor V11 entered the patient's room, waited for 1226 ms.
+Visitor V35 exited the patient's room, stayed 37 ms.
+Visitor V32 wishes to visit the patient, waiting.
+Visitor V32 entered the patient's room, waited for 1245 ms.
+Visitor V32 exited the patient's room, stayed 69 ms.
+Visitor V11 exited the patient's room, stayed 131 ms.
+Visitor V20 wishes to visit the patient, waiting.
+Visitor V20 entered the patient's room, waited for 480 ms.
+Visitor V20 exited the patient's room, stayed 59 ms.
+Visitor V21 wishes to visit the patient, waiting.
+Visitor V21 entered the patient's room, waited for 1459 ms.
+Visitor V21 exited the patient's room, stayed 1 ms.
+Visitor V33 wishes to visit the patient, waiting.
+Visitor V33 entered the patient's room, waited for 1574 ms.
+Visitor V25 wishes to visit the patient, waiting.
+Visitor V25 entered the patient's room, waited for 1576 ms.
+Display --> In the room: 0 doctor(s) [ ], and 2 visitor(s) [ V33 V25 ].
+Visitor V13 wishes to visit the patient, waiting.
+Visitor V13 entered the patient's room, waited for 1601 ms.
+Visitor V33 exited the patient's room, stayed 65 ms.
+Visitor V25 exited the patient's room, stayed 124 ms.
+Visitor V4 wishes to visit the patient, waiting.
+Visitor V4 entered the patient's room, waited for 1727 ms.
+Visitor V4 exited the patient's room, stayed 0 ms.
+Visitor V13 exited the patient's room, stayed 143 ms.
+Visitor V25 wishes to visit the patient, waiting.
+Visitor V25 entered the patient's room, waited for 240 ms.
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 1948 ms.
+Visitor V1 exited the patient's room, stayed 32 ms.
+Visitor V25 exited the patient's room, stayed 45 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V11 wishes to visit the patient, waiting.
+Visitor V11 entered the patient's room, waited for 709 ms.
+Visitor V11 exited the patient's room, stayed 35 ms.
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 2202 ms.
+Visitor V16 wishes to visit the patient, waiting.
+Visitor V18 wishes to visit the patient, waiting.
+Visitor V13 wishes to visit the patient, waiting.
+Doctor D0 exited the patient's room, stayed 117 ms.
+Visitor V16 entered the patient's room, waited for 1931 ms.
+Visitor V16 exited the patient's room, stayed 65 ms.
+Visitor V18 entered the patient's room, waited for 2383 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V18 ].
+Visitor V18 exited the patient's room, stayed 29 ms.
+Visitor V13 entered the patient's room, waited for 669 ms.
+Visitor V11 wishes to visit the patient, waiting.
+Visitor V11 entered the patient's room, waited for 322 ms.
+Visitor V13 exited the patient's room, stayed 60 ms.
+Visitor V20 wishes to visit the patient, waiting.
+Visitor V20 entered the patient's room, waited for 1046 ms.
+Visitor V20 exited the patient's room, stayed 65 ms.
+Visitor V11 exited the patient's room, stayed 133 ms.
+Visitor V33 wishes to visit the patient, waiting.
+Visitor V33 entered the patient's room, waited for 1142 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V33 ].
+Visitor V33 exited the patient's room, stayed 23 ms.
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 882 ms.
+Visitor V17 wishes to visit the patient, waiting.
+Visitor V17 entered the patient's room, waited for 2881 ms.
+Visitor V17 exited the patient's room, stayed 25 ms.
+Visitor V9 wishes to visit the patient, waiting.
+Visitor V9 entered the patient's room, waited for 2186 ms.
+Visitor V1 exited the patient's room, stayed 138 ms.
+Visitor V9 exited the patient's room, stayed 120 ms.
+Visitor V21 wishes to visit the patient, waiting.
+Visitor V21 entered the patient's room, waited for 1600 ms.
+Visitor V31 wishes to visit the patient, waiting.
+Visitor V31 entered the patient's room, waited for 3104 ms.
+Visitor V21 exited the patient's room, stayed 127 ms.
+Visitor V14 wishes to visit the patient, waiting.
+Visitor V14 entered the patient's room, waited for 3199 ms.
+Display --> In the room: 0 doctor(s) [ ], and 2 visitor(s) [ V31 V14 ].
+Visitor V31 exited the patient's room, stayed 123 ms.
+Visitor V32 wishes to visit the patient, waiting.
+Visitor V32 entered the patient's room, waited for 1924 ms.
+Visitor V14 exited the patient's room, stayed 61 ms.
+Visitor V32 exited the patient's room, stayed 50 ms.
+Visitor V18 wishes to visit the patient, waiting.
+Visitor V18 entered the patient's room, waited for 973 ms.
+Visitor V18 exited the patient's room, stayed 15 ms.
+Visitor V15 wishes to visit the patient, waiting.
+Visitor V15 entered the patient's room, waited for 3479 ms.
+Visitor V15 exited the patient's room, stayed 82 ms.
+Visitor V10 wishes to visit the patient, waiting.
+Visitor V10 entered the patient's room, waited for 3560 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V10 ].
+Visitor V10 exited the patient's room, stayed 95 ms.
+Visitor V20 wishes to visit the patient, waiting.
+Visitor V20 entered the patient's room, waited for 1270 ms.
+^C
+mshnwq@ubuntu:~/assignment5$ ./room_access_control
+Display --> Created 5 Doctors, and 6 Visitors.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V4 wishes to visit the patient, waiting.
+Visitor V4 entered the patient's room, waited for 1020 ms.
+Visitor V4 exited the patient's room, stayed 138 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 1356 ms.
+Doctor D0 exited the patient's room, stayed 52 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V4 wishes to visit the patient, waiting.
+Visitor V4 entered the patient's room, waited for 480 ms.
+Visitor V4 exited the patient's room, stayed 66 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V0 wishes to visit the patient, waiting.
+Visitor V0 entered the patient's room, waited for 2070 ms.
+Visitor V0 exited the patient's room, stayed 49 ms.
+Visitor V3 wishes to visit the patient, waiting.
+Visitor V3 entered the patient's room, waited for 2132 ms.
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 2176 ms.
+Visitor V1 exited the patient's room, stayed 15 ms.
+Visitor V3 exited the patient's room, stayed 138 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 1041 ms.
+Doctor D0 exited the patient's room, stayed 105 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 476 ms.
+Doctor D0 exited the patient's room, stayed 106 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V3 wishes to visit the patient, waiting.
+Visitor V3 entered the patient's room, waited for 1110 ms.
+Visitor V0 wishes to visit the patient, waiting.
+Visitor V0 entered the patient's room, waited for 1293 ms.
+Visitor V3 exited the patient's room, stayed 38 ms.
+Visitor V0 exited the patient's room, stayed 111 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V2 wishes to visit the patient, waiting.
+Visitor V2 entered the patient's room, waited for 3858 ms.
+Visitor V2 exited the patient's room, stayed 33 ms.
+Visitor V2 wishes to visit the patient, waiting.
+Visitor V2 entered the patient's room, waited for 87 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V2 ].
+Visitor V2 exited the patient's room, stayed 39 ms.
+Doctor D1 wishes to see the patient, waiting.
+Doctor D1 entered the patient's room, waited for 4176 ms.
+Doctor D4 wishes to see the patient, waiting.
+Doctor D2 wishes to see the patient, waiting.
+Doctor D3 wishes to see the patient, waiting.
+Doctor D1 exited the patient's room, stayed 94 ms.
+Doctor D4 entered the patient's room, waited for 4271 ms.
+Visitor V4 wishes to visit the patient, waiting.
+Doctor D4 exited the patient's room, stayed 37 ms.
+Doctor D2 entered the patient's room, waited for 4309 ms.
+Display --> In the room: 1 doctor(s) [ D2 ], and 0 visitor(s) [ ].
+Doctor D2 exited the patient's room, stayed 258 ms.
+Doctor D3 entered the patient's room, waited for 4569 ms.
+Doctor D3 exited the patient's room, stayed 115 ms.
+Visitor V4 entered the patient's room, waited for 2978 ms.
+Visitor V4 exited the patient's room, stayed 41 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V5 wishes to visit the patient, waiting.
+Visitor V5 entered the patient's room, waited for 4985 ms.
+Visitor V5 exited the patient's room, stayed 4 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D3 wishes to see the patient, waiting.
+Doctor D3 entered the patient's room, waited for 1414 ms.
+Visitor V1 wishes to visit the patient, waiting.
+Doctor D2 wishes to see the patient, waiting.
+Doctor D3 exited the patient's room, stayed 184 ms.
+Doctor D2 entered the patient's room, waited for 1715 ms.
+Doctor D0 wishes to see the patient, waiting.
+Display --> In the room: 1 doctor(s) [ D2 ], and 0 visitor(s) [ ].
+^C
+mshnwq@ubuntu:~/assignment5$ ./room_access_control 5 20
+Display --> Created 5 Doctors, and 20 Visitors.
+Visitor V10 wishes to visit the patient, waiting.
+Visitor V10 entered the patient's room, waited for 11 ms.
+Visitor V10 exited the patient's room, stayed 61 ms.
+Visitor V7 wishes to visit the patient, waiting.
+Visitor V7 entered the patient's room, waited for 203 ms.
+Visitor V7 exited the patient's room, stayed 145 ms.
+Visitor V12 wishes to visit the patient, waiting.
+Visitor V12 entered the patient's room, waited for 398 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V12 ].
+Visitor V12 exited the patient's room, stayed 106 ms.
+Visitor V12 wishes to visit the patient, waiting.
+Visitor V12 entered the patient's room, waited for 143 ms.
+Visitor V12 exited the patient's room, stayed 83 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V5 wishes to visit the patient, waiting.
+Visitor V5 entered the patient's room, waited for 822 ms.
+Visitor V17 wishes to visit the patient, waiting.
+Visitor V17 entered the patient's room, waited for 823 ms.
+Visitor V5 exited the patient's room, stayed 9 ms.
+Visitor V17 exited the patient's room, stayed 21 ms.
+Visitor V2 wishes to visit the patient, waiting.
+Visitor V2 entered the patient's room, waited for 875 ms.
+Visitor V2 exited the patient's room, stayed 96 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V8 wishes to visit the patient, waiting.
+Visitor V8 entered the patient's room, waited for 1425 ms.
+Visitor V8 exited the patient's room, stayed 58 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 1661 ms.
+Doctor D0 exited the patient's room, stayed 287 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V17 wishes to visit the patient, waiting.
+Visitor V17 entered the patient's room, waited for 1383 ms.
+Visitor V17 exited the patient's room, stayed 43 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V4 wishes to visit the patient, waiting.
+Visitor V4 entered the patient's room, waited for 2429 ms.
+Visitor V19 wishes to visit the patient, waiting.
+Visitor V19 entered the patient's room, waited for 2461 ms.
+Visitor V19 exited the patient's room, stayed 4 ms.
+Visitor V4 exited the patient's room, stayed 111 ms.
+Visitor V13 wishes to visit the patient, waiting.
+Visitor V13 entered the patient's room, waited for 2628 ms.
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 2656 ms.
+Visitor V1 exited the patient's room, stayed 1 ms.
+Visitor V13 exited the patient's room, stayed 147 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V4 wishes to visit the patient, waiting.
+Visitor V4 entered the patient's room, waited for 308 ms.
+Visitor V4 exited the patient's room, stayed 94 ms.
+Visitor V12 wishes to visit the patient, waiting.
+Visitor V12 entered the patient's room, waited for 2341 ms.
+Visitor V12 exited the patient's room, stayed 48 ms.
+Visitor V9 wishes to visit the patient, waiting.
+Visitor V9 entered the patient's room, waited for 3201 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V9 ].
+Visitor V13 wishes to visit the patient, waiting.
+Visitor V13 entered the patient's room, waited for 471 ms.
+Visitor V9 exited the patient's room, stayed 50 ms.
+Visitor V8 wishes to visit the patient, waiting.
+Visitor V8 entered the patient's room, waited for 1775 ms.
+Visitor V8 exited the patient's room, stayed 72 ms.
+Visitor V2 wishes to visit the patient, waiting.
+Visitor V2 entered the patient's room, waited for 2367 ms.
+Visitor V13 exited the patient's room, stayed 108 ms.
+Visitor V18 wishes to visit the patient, waiting.
+Visitor V18 entered the patient's room, waited for 3394 ms.
+Visitor V18 exited the patient's room, stayed 61 ms.
+Visitor V2 exited the patient's room, stayed 144 ms.
+Visitor V2 wishes to visit the patient, waiting.
+Visitor V2 entered the patient's room, waited for 24 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V2 ].
+Visitor V6 wishes to visit the patient, waiting.
+Visitor V6 entered the patient's room, waited for 3637 ms.
+Visitor V2 exited the patient's room, stayed 144 ms.
+Visitor V6 exited the patient's room, stayed 29 ms.
+Doctor D1 wishes to see the patient, waiting.
+Doctor D1 entered the patient's room, waited for 3669 ms.
+Doctor D1 exited the patient's room, stayed 253 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Doctor D4 wishes to see the patient, waiting.
+Doctor D4 entered the patient's room, waited for 4023 ms.
+Doctor D4 exited the patient's room, stayed 130 ms.
+Visitor V3 wishes to visit the patient, waiting.
+Visitor V3 entered the patient's room, waited for 4177 ms.
+Visitor V3 exited the patient's room, stayed 5 ms.
+Visitor V17 wishes to visit the patient, waiting.
+Visitor V17 entered the patient's room, waited for 2128 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V17 ].
+Visitor V17 exited the patient's room, stayed 66 ms.
+Doctor D3 wishes to see the patient, waiting.
+Doctor D3 entered the patient's room, waited for 4473 ms.
+Visitor V9 wishes to visit the patient, waiting.
+Visitor V15 wishes to visit the patient, waiting.
+Visitor V10 wishes to visit the patient, waiting.
+Doctor D1 wishes to see the patient, waiting.
+Visitor V12 wishes to visit the patient, waiting.
+Visitor V11 wishes to visit the patient, waiting.
+Doctor D2 wishes to see the patient, waiting.
+Doctor D3 exited the patient's room, stayed 248 ms.
+Visitor V9 entered the patient's room, waited for 1467 ms.
+Visitor V16 wishes to visit the patient, waiting.
+Visitor V16 entered the patient's room, waited for 4738 ms.
+Visitor V14 wishes to visit the patient, waiting.
+Visitor V14 entered the patient's room, waited for 4778 ms.
+Visitor V9 exited the patient's room, stayed 80 ms.
+Visitor V15 entered the patient's room, waited for 4798 ms.
+Display --> In the room: 0 doctor(s) [ ], and 3 visitor(s) [ V16 V14 V15 ].
+Visitor V16 exited the patient's room, stayed 71 ms.
+Visitor V10 entered the patient's room, waited for 4738 ms.
+Visitor V10 exited the patient's room, stayed 11 ms.
+Visitor V14 exited the patient's room, stayed 51 ms.
+Visitor V0 wishes to visit the patient, waiting.
+Visitor V0 entered the patient's room, waited for 4856 ms.
+Visitor V0 exited the patient's room, stayed 5 ms.
+Visitor V15 exited the patient's room, stayed 80 ms.
+Doctor D2 entered the patient's room, waited for 4883 ms.
+Visitor V6 wishes to visit the patient, waiting.
+Doctor D2 exited the patient's room, stayed 217 ms.
+Visitor V12 entered the patient's room, waited for 1977 ms.
+Visitor V12 exited the patient's room, stayed 19 ms.
+Doctor D1 entered the patient's room, waited for 1199 ms.
+Visitor V7 wishes to visit the patient, waiting.
+Display --> In the room: 1 doctor(s) [ D1 ], and 0 visitor(s) [ ].
+Doctor D1 exited the patient's room, stayed 256 ms.
+Visitor V11 entered the patient's room, waited for 5375 ms.
+Visitor V11 exited the patient's room, stayed 27 ms.
+Visitor V6 entered the patient's room, waited for 1739 ms.
+Visitor V12 wishes to visit the patient, waiting.
+Visitor V12 entered the patient's room, waited for 333 ms.
+Visitor V6 exited the patient's room, stayed 48 ms.
+Visitor V7 entered the patient's room, waited for 5104 ms.
+Visitor V15 wishes to visit the patient, waiting.
+Visitor V15 entered the patient's room, waited for 609 ms.
+Visitor V7 exited the patient's room, stayed 93 ms.
+Visitor V12 exited the patient's room, stayed 131 ms.
+Visitor V15 exited the patient's room, stayed 109 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V5 wishes to visit the patient, waiting.
+Visitor V5 entered the patient's room, waited for 4996 ms.
+Visitor V13 wishes to visit the patient, waiting.
+Visitor V13 entered the patient's room, waited for 2513 ms.
+Visitor V5 exited the patient's room, stayed 73 ms.
+Visitor V13 exited the patient's room, stayed 47 ms.
+Visitor V9 wishes to visit the patient, waiting.
+Visitor V9 entered the patient's room, waited for 1190 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V9 ].
+Visitor V9 exited the patient's room, stayed 34 ms.
+Visitor V14 wishes to visit the patient, waiting.
+Visitor V14 entered the patient's room, waited for 1206 ms.
+Visitor V14 exited the patient's room, stayed 95 ms.
+Doctor D0 wishes to see the patient, waiting.
+Doctor D0 entered the patient's room, waited for 4195 ms.
+Doctor D0 exited the patient's room, stayed 222 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V16 wishes to visit the patient, waiting.
+Visitor V16 entered the patient's room, waited for 1949 ms.
+Visitor V16 exited the patient's room, stayed 11 ms.
+Visitor V19 wishes to visit the patient, waiting.
+Visitor V19 entered the patient's room, waited for 4308 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V19 ].
+Visitor V19 exited the patient's room, stayed 94 ms.
+Visitor V3 wishes to visit the patient, waiting.
+Visitor V3 entered the patient's room, waited for 2840 ms.
+Visitor V11 wishes to visit the patient, waiting.
+Visitor V11 entered the patient's room, waited for 1680 ms.
+Visitor V11 exited the patient's room, stayed 10 ms.
+Visitor V3 exited the patient's room, stayed 88 ms.
+Visitor V15 wishes to visit the patient, waiting.
+Visitor V15 entered the patient's room, waited for 1527 ms.
+Visitor V15 exited the patient's room, stayed 9 ms.
+Visitor V18 wishes to visit the patient, waiting.
+Visitor V18 entered the patient's room, waited for 3717 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V18 ].
+Visitor V18 exited the patient's room, stayed 102 ms.
+Visitor V3 wishes to visit the patient, waiting.
+Visitor V3 entered the patient's room, waited for 223 ms.
+Visitor V3 exited the patient's room, stayed 63 ms.
+Visitor V3 wishes to visit the patient, waiting.
+Visitor V3 entered the patient's room, waited for 16 ms.
+Visitor V1 wishes to visit the patient, waiting.
+Visitor V1 entered the patient's room, waited for 4808 ms.
+Visitor V4 wishes to visit the patient, waiting.
+Visitor V4 entered the patient's room, waited for 4544 ms.
+Visitor V3 exited the patient's room, stayed 83 ms.
+Visitor V4 exited the patient's room, stayed 10 ms.
+Visitor V1 exited the patient's room, stayed 119 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V8 wishes to visit the patient, waiting.
+Visitor V8 entered the patient's room, waited for 4402 ms.
+Visitor V6 wishes to visit the patient, waiting.
+Visitor V6 entered the patient's room, waited for 2290 ms.
+Visitor V6 exited the patient's room, stayed 104 ms.
+Visitor V8 exited the patient's room, stayed 135 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V7 wishes to visit the patient, waiting.
+Visitor V7 entered the patient's room, waited for 2546 ms.
+Visitor V12 wishes to visit the patient, waiting.
+Visitor V12 entered the patient's room, waited for 2534 ms.
+Visitor V7 exited the patient's room, stayed 108 ms.
+Visitor V12 exited the patient's room, stayed 107 ms.
+Doctor D3 wishes to see the patient, waiting.
+Doctor D3 entered the patient's room, waited for 3515 ms.
+Visitor V11 wishes to visit the patient, waiting.
+Doctor D3 exited the patient's room, stayed 71 ms.
+Visitor V11 entered the patient's room, waited for 1212 ms.
+Visitor V11 exited the patient's room, stayed 55 ms.
+Doctor D1 wishes to see the patient, waiting.
+Doctor D1 entered the patient's room, waited for 3030 ms.
+Display --> In the room: 1 doctor(s) [ D1 ], and 0 visitor(s) [ ].
+Visitor V5 wishes to visit the patient, waiting.
+Doctor D1 exited the patient's room, stayed 83 ms.
+Visitor V5 entered the patient's room, waited for 2590 ms.
+Doctor D4 wishes to see the patient, waiting.
+Visitor V2 wishes to visit the patient, waiting.
+Visitor V2 entered the patient's room, waited for 4908 ms.
+Visitor V2 exited the patient's room, stayed 20 ms.
+Visitor V5 exited the patient's room, stayed 129 ms.
+Doctor D4 entered the patient's room, waited for 4467 ms.
+Display --> In the room: 1 doctor(s) [ D4 ], and 0 visitor(s) [ ].
+Visitor V19 wishes to visit the patient, waiting.
+Visitor V10 wishes to visit the patient, waiting.
+Doctor D4 exited the patient's room, stayed 259 ms.
+Visitor V19 entered the patient's room, waited for 2008 ms.
+Visitor V19 exited the patient's room, stayed 107 ms.
+Visitor V10 entered the patient's room, waited for 4164 ms.
+Visitor V10 exited the patient's room, stayed 37 ms.
+Visitor V17 wishes to visit the patient, waiting.
+Visitor V17 entered the patient's room, waited for 4563 ms.
+Visitor V0 wishes to visit the patient, waiting.
+Visitor V0 entered the patient's room, waited for 4202 ms.
+Visitor V17 exited the patient's room, stayed 45 ms.
+Visitor V0 exited the patient's room, stayed 38 ms.
+Display --> In the room: 0 doctor(s) [ ], and 0 visitor(s) [ ].
+Visitor V13 wishes to visit the patient, waiting.
+Visitor V13 entered the patient's room, waited for 3304 ms.
+Visitor V8 wishes to visit the patient, waiting.
+Visitor V8 entered the patient's room, waited for 1443 ms.
+Doctor D2 wishes to see the patient, waiting.
+Visitor V13 exited the patient's room, stayed 146 ms.
+Visitor V8 exited the patient's room, stayed 86 ms.
+Doctor D2 entered the patient's room, waited for 4301 ms.
+Visitor V4 wishes to visit the patient, waiting.
+Doctor D4 wishes to see the patient, waiting.
+Doctor D2 exited the patient's room, stayed 190 ms.
+Doctor D4 entered the patient's room, waited for 711 ms.
+Display --> In the room: 1 doctor(s) [ D4 ], and 0 visitor(s) [ ].
+Doctor D2 wishes to see the patient, waiting.
+Doctor D4 exited the patient's room, stayed 190 ms.
+Doctor D2 entered the patient's room, waited for 191 ms.
+Doctor D3 wishes to see the patient, waiting.
+Visitor V14 wishes to visit the patient, waiting.
+Visitor V8 wishes to visit the patient, waiting.
+Display --> In the room: 1 doctor(s) [ D2 ], and 0 visitor(s) [ ].
+Doctor D2 exited the patient's room, stayed 260 ms.
+Visitor V4 entered the patient's room, waited for 2545 ms.
+Doctor D2 wishes to see the patient, waiting.
+Visitor V9 wishes to visit the patient, waiting.
+Visitor V9 entered the patient's room, waited for 4059 ms.
+Visitor V17 wishes to visit the patient, waiting.
+Visitor V17 entered the patient's room, waited for 1007 ms.
+Visitor V17 exited the patient's room, stayed 28 ms.
+Visitor V15 wishes to visit the patient, waiting.
+Visitor V15 entered the patient's room, waited for 2985 ms.
+Visitor V4 exited the patient's room, stayed 99 ms.
+Visitor V9 exited the patient's room, stayed 98 ms.
+Visitor V15 exited the patient's room, stayed 97 ms.
+Doctor D2 entered the patient's room, waited for 176 ms.
+Display --> In the room: 1 doctor(s) [ D2 ], and 0 visitor(s) [ ].
+Doctor D2 exited the patient's room, stayed 198 ms.
+Doctor D3 entered the patient's room, waited for 2110 ms.
+Doctor D3 exited the patient's room, stayed 16 ms.
+Visitor V14 entered the patient's room, waited for 4300 ms.
+Visitor V10 wishes to visit the patient, waiting.
+Visitor V10 entered the patient's room, waited for 1537 ms.
+Visitor V14 exited the patient's room, stayed 145 ms.
+Visitor V8 entered the patient's room, waited for 1179 ms.
+Visitor V15 wishes to visit the patient, waiting.
+Visitor V15 entered the patient's room, waited for 443 ms.
+Visitor V8 exited the patient's room, stayed 99 ms.
+Visitor V10 exited the patient's room, stayed 123 ms.
+Visitor V15 exited the patient's room, stayed 60 ms.
+Visitor V6 wishes to visit the patient, waiting.
+Visitor V6 entered the patient's room, waited for 2957 ms.
+Display --> In the room: 0 doctor(s) [ ], and 1 visitor(s) [ V6 ].
+^C
+mshnwq@ubuntu:~/assignment5$

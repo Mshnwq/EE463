@@ -1,0 +1,228 @@
+1740574
+$ python3 scheduler.py -p FIFO -l 42,38,45,81
+$ python3 scheduler.py -p SJF -l 42,38,45,81
+$ python3 scheduler.py -p RR -l 42,38,45,81 -q 50
+$ python3 scheduler.py -p RR -l 42,38,45,81 -q 25
+
+
+
+
+
+1743292
+$ python3 scheduler.py -p FIFO -l 58,21,67,49
+$ python3 scheduler.py -p SJF -l 58,21,67,49
+$ python3 scheduler.py -p RR -l 58,21,67,49 -q 50
+$ python3 scheduler.py -p RR -l 58,21,67,49 -q 25
+
+
+
+
+
+1845570
+$ python3 scheduler.py -p FIFO -l 6,9,6,94
+$ python3 scheduler.py -p SJF -l 6,9,6,94
+$ python3 scheduler.py -p RR -l 6,9,6,94 -q 50
+$ python3 scheduler.py -p RR -l 6,9,6,94 -q 25
+
+
+
+
+
+1845718
+$ python3 scheduler.py -p FIFO -l 87,40,49,5
+$ python3 scheduler.py -p SJF -l 87,40,49,5
+$ python3 scheduler.py -p RR -l 87,40,49,5 -q 50
+$ python3 scheduler.py -p RR -l 87,40,49,5 -q 25
+
+
+
+
+
+1845973
+$ python3 scheduler.py -p FIFO -l 26,64,80,86
+$ python3 scheduler.py -p SJF -l 26,64,80,86
+$ python3 scheduler.py -p RR -l 26,64,80,86 -q 50
+$ python3 scheduler.py -p RR -l 26,64,80,86 -q 25
+
+
+
+
+
+1847902
+$ python3 scheduler.py -p FIFO -l 18,21,71,29
+$ python3 scheduler.py -p SJF -l 18,21,71,29
+$ python3 scheduler.py -p RR -l 18,21,71,29 -q 50
+$ python3 scheduler.py -p RR -l 18,21,71,29 -q 25
+
+
+
+
+
+1849560
+$ python3 scheduler.py -p FIFO -l 70,52,18,68
+$ python3 scheduler.py -p SJF -l 70,52,18,68
+$ python3 scheduler.py -p RR -l 70,52,18,68 -q 50
+$ python3 scheduler.py -p RR -l 70,52,18,68 -q 25
+
+
+
+
+
+1851778
+$ python3 scheduler.py -p FIFO -l 59,23,38,33
+$ python3 scheduler.py -p SJF -l 59,23,38,33
+$ python3 scheduler.py -p RR -l 59,23,38,33 -q 50
+$ python3 scheduler.py -p RR -l 59,23,38,33 -q 25
+
+
+
+
+
+1854399
+$ python3 scheduler.py -p FIFO -l 67,86,43,10
+$ python3 scheduler.py -p SJF -l 67,86,43,10
+$ python3 scheduler.py -p RR -l 67,86,43,10 -q 50
+$ python3 scheduler.py -p RR -l 67,86,43,10 -q 25
+
+
+
+
+
+1855121
+$ python3 scheduler.py -p FIFO -l 27,13,6,57
+$ python3 scheduler.py -p SJF -l 27,13,6,57
+$ python3 scheduler.py -p RR -l 27,13,6,57 -q 50
+$ python3 scheduler.py -p RR -l 27,13,6,57 -q 25
+
+
+
+
+
+1855394
+$ python3 scheduler.py -p FIFO -l 80,53,47,19
+$ python3 scheduler.py -p SJF -l 80,53,47,19
+$ python3 scheduler.py -p RR -l 80,53,47,19 -q 50
+$ python3 scheduler.py -p RR -l 80,53,47,19 -q 25
+
+
+
+
+
+1855911
+$ python3 scheduler.py -p FIFO -l 86,82,94,5
+$ python3 scheduler.py -p SJF -l 86,82,94,5
+$ python3 scheduler.py -p RR -l 86,82,94,5 -q 50
+$ python3 scheduler.py -p RR -l 86,82,94,5 -q 25
+
+
+
+
+
+1935944
+$ python3 scheduler.py -p FIFO -l 77,57,59,89
+$ python3 scheduler.py -p SJF -l 77,57,59,89
+$ python3 scheduler.py -p RR -l 77,57,59,89 -q 50
+$ python3 scheduler.py -p RR -l 77,57,59,89 -q 25
+
+
+
+
+
+1936005
+$ python3 scheduler.py -p FIFO -l 100,6,70,59
+$ python3 scheduler.py -p SJF -l 100,6,70,59
+$ python3 scheduler.py -p RR -l 100,6,70,59 -q 50
+$ python3 scheduler.py -p RR -l 100,6,70,59 -q 25
+
+
+
+
+
+1936528
+$ python3 scheduler.py -p FIFO -l 3,17,12,72
+$ python3 scheduler.py -p SJF -l 3,17,12,72
+$ python3 scheduler.py -p RR -l 3,17,12,72 -q 50
+$ python3 scheduler.py -p RR -l 3,17,12,72 -q 25
+
+
+
+
+
+1936535
+$ python3 scheduler.py -p FIFO -l 92,10,4,82
+$ python3 scheduler.py -p SJF -l 92,10,4,82
+$ python3 scheduler.py -p RR -l 92,10,4,82 -q 50
+$ python3 scheduler.py -p RR -l 92,10,4,82 -q 25
+
+
+
+
+
+1937123
+$ python3 scheduler.py -p FIFO -l 33,34,71,52
+$ python3 scheduler.py -p SJF -l 33,34,71,52
+$ python3 scheduler.py -p RR -l 33,34,71,52 -q 50
+$ python3 scheduler.py -p RR -l 33,34,71,52 -q 25
+
+
+
+
+
+1937555
+$ python3 scheduler.py -p FIFO -l 11,52,37,89
+$ python3 scheduler.py -p SJF -l 11,52,37,89
+$ python3 scheduler.py -p RR -l 11,52,37,89 -q 50
+$ python3 scheduler.py -p RR -l 11,52,37,89 -q 25
+
+
+
+
+
+1941295
+$ python3 scheduler.py -p FIFO -l 65,53,25,68
+$ python3 scheduler.py -p SJF -l 65,53,25,68
+$ python3 scheduler.py -p RR -l 65,53,25,68 -q 50
+$ python3 scheduler.py -p RR -l 65,53,25,68 -q 25
+
+
+
+
+
+1943102
+$ python3 scheduler.py -p FIFO -l 48,9,100,1
+$ python3 scheduler.py -p SJF -l 48,9,100,1
+$ python3 scheduler.py -p RR -l 48,9,100,1 -q 50
+$ python3 scheduler.py -p RR -l 48,9,100,1 -q 25
+
+
+
+
+
+1943451
+$ python3 scheduler.py -p FIFO -l 39,63,37,48
+$ python3 scheduler.py -p SJF -l 39,63,37,48
+$ python3 scheduler.py -p RR -l 39,63,37,48 -q 50
+$ python3 scheduler.py -p RR -l 39,63,37,48 -q 25
+
+
+
+
+
+1945603
+$ python3 scheduler.py -p FIFO -l 97,62,31,8
+$ python3 scheduler.py -p SJF -l 97,62,31,8
+$ python3 scheduler.py -p RR -l 97,62,31,8 -q 50
+$ python3 scheduler.py -p RR -l 97,62,31,8 -q 25
+
+
+
+
+
+1945954
+$ python3 scheduler.py -p FIFO -l 21,63,35,59
+$ python3 scheduler.py -p SJF -l 21,63,35,59
+$ python3 scheduler.py -p RR -l 21,63,35,59 -q 50
+$ python3 scheduler.py -p RR -l 21,63,35,59 -q 25
+
+
+
