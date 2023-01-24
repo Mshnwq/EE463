@@ -1,0 +1,91 @@
+mshnwq@lamp ~/hw2$
+mshnwq@lamp ~/hw2$ bash phone
+mshnwq@lamp ~/hw2$ bash phone -l
+mshnwq@lamp ~/hw2$ bash phone -a mshnwq 0505
+mshnwq@lamp ~/hw2$ bash phone -a mshnwq 050585
+mshnwq@lamp ~/hw2$ bash phone -a mshnwq 050585
+mshnwq 050585 Already Exists
+mshnwq@lamp ~/hw2$ bash phone -a msh 05585
+mshnwq@lamp ~/hw2$ bash phone -a msh 0085
+mshnwq@lamp ~/hw2$ bash phone -a me 0085
+mshnwq@lamp ~/hw2$ bash phone -a me
+Invalid Arguments, Need a {Name Number} Pair
+mshnwq@lamp ~/hw2$ bash phone -a
+Invalid Arguments, Need a {Name Number} Pair
+mshnwq@lamp ~/hw2$ bash phone -a cwnnj ruvnrei unri
+Invalid Arguments, Need a {Name Number} Pair
+mshnwq@lamp ~/hw2$ bash phone -l
+mshnwq 0505
+mshnwq 050585
+msh 05585
+msh 0085
+me 0085
+mshnwq@lamp ~/hw2$ bash phone -s me
+me 0085
+mshnwq@lamp ~/hw2$ bash phone -s msh
+mshnwq 0505
+mshnwq 050585
+msh 05585
+msh 0085
+mshnwq@lamp ~/hw2$ bash phone -s mshnw
+mshnwq 0505
+mshnwq 050585
+mshnwq@lamp ~/hw2$ bash phone -s 050
+mshnwq 0505
+mshnwq 050585
+mshnwq@lamp ~/hw2$ bash phone -s 0
+mshnwq 0505
+mshnwq 050585
+msh 05585
+msh 0085
+me 0085
+mshnwq@lamp ~/hw2$ bash phone -s e
+me 0085
+mshnwq@lamp ~/hw2$ bash phone -s es
+es Does not Exist
+mshnwq@lamp ~/hw2$ bash phone -s nnnn
+nnnn Does not Exist
+mshnwq@lamp ~/hw2$ bash phone no
+no Does not Exist
+mshnwq@lamp ~/hw2$ bash phone me
+me 0085
+mshnwq@lamp ~/hw2$ bash phone -r 0505 007
+mshnwq@lamp ~/hw2$ bash phone -r 0505 007
+0505 Does not Exist
+mshnwq@lamp ~/hw2$ bash phone
+mshnwq 050585
+msh 05585
+msh 0085
+me 0085
+mshnwq 007
+mshnwq@lamp ~/hw2$ bash phone -r 4
+Invalid Arguments, Need a {Name Name or Number Number} Pair
+mshnwq@lamp ~/hw2$ bash phone -r
+Invalid Arguments, Need a {Name Name or Number Number} Pair
+mshnwq@lamp ~/hw2$ bash phone -r me menew
+mshnwq@lamp ~/hw2$ bash phone
+mshnwq 050585
+msh 05585
+msh 0085
+mshnwq 007
+menew 0085
+mshnwq@lamp ~/hw2$ bash phone -d 007
+mshnwq@lamp ~/hw2$ bash phone
+mshnwq 050585
+msh 05585
+msh 0085
+menew 0085
+mshnwq@lamp ~/hw2$ bash phone -d 0085
+mshnwq@lamp ~/hw2$ bash phone
+mshnwq 050585
+msh 05585
+mshnwq@lamp ~/hw2$ bash phone -d msh 0085
+msh 0085 Does not Exist
+mshnwq@lamp ~/hw2$ bash phone -d msh 05585
+mshnwq@lamp ~/hw2$ bash phone
+mshnwq 050585
+mshnwq@lamp ~/hw2$ bash phone -d msh
+msh Does not Exist
+mshnwq@lamp ~/hw2$ bash phone
+mshnwq 050585
+mshnwq@lamp ~/hw2$

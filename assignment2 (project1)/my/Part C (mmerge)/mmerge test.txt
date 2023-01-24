@@ -1,0 +1,46 @@
+login as: mshnwq
+mshnwq@192.168.56.101's password:
+Welcome to Lamp, TurnKey GNU/Linux 16.0 (Debian 10/Buster)
+
+  System information for Thu Dec 22 18:48:37 2022 - +03 (UTC+0300)
+
+    System load:  0.00               Memory usage:  25.6%
+    Processes:    100                Swap usage:    0.0%
+    Usage of /:   13.5% of 16.61GB   IP address for eth0: 192.168.56.101
+
+
+
+    For Advanced commandline config run:    confconsole
+
+  For more info see: https://www.turnkeylinux.org/docs/confconsole
+
+Linux lamp 4.19.0-8-amd64 #1 SMP Debian 4.19.98-1+deb10u1 (2020-04-27) x86_64
+Last login: Thu Dec 22 18:35:45 2022 from 192.168.56.1
+mshnwq@lamp ~$
+mshnwq@lamp ~$ cd hw2/
+mshnwq@lamp ~/hw2$ ls
+mmerge  names  template.txt
+mshnwq@lamp ~/hw2$ cat names
+Client
+Sir
+Boss
+Guest
+Mr.
+mshnwq@lamp ~/hw2$ cat template.txt
+
+NAME The purpose of this letter is to remind you of your outstanding fee
+
+Best regards, MSHNWQ.
+
+mshnwq@lamp ~/hw2$ bash mmerge template.txt NAME names
+mshnwq@lamp ~/hw2$ ls
+letter-to-Boss    letter-to-Guest  letter-to-Sir  names
+letter-to-Client  letter-to-Mr.    mmerge         template.txt
+mshnwq@lamp ~/hw2$ cat letter-to-Client
+To: Client               Date: 12/22/22
+
+Client The purpose of this letter is to remind you of your outstanding fee
+
+Best regards, MSHNWQ.
+
+mshnwq@lamp ~/hw2$

@@ -1,0 +1,136 @@
+#!/bin/bash
+
+# -----------------------------------------------------
+# Function: Delete files into trash, and restores from trash
+# Author: Hayan Al-Machnouk
+# Last Updated: 12/22/2022
+# -----------------------------------------------------
+
+if [ ! -d "$HOME/trash" ]; then # create the directory if does not exist
+	mkdir $HOME/trash
+	touch $HOME/trash/.srm
+	chmod 777 $HOME/trash/.srm # privliges
+fi
+
+case "$1" in
+"-d")                    # Delete trash Case
+	currentTime=$(date +%s) # current time (seconds)
+	for file in $HOME/trash/*; do
+		if [ ! -e $file ]; then
+			echo "the trash is empty"
+			break
+		fi
+
+		touchTime=$(date -r $file +%s)                # touch time (seconds)
+		days=$((($currentTime - $touchTime) / 86400)) # to convert to days, 3600*24=86400
+		if [ "$days" -ge 40 ]; then                   # 40 days have passed
+			rm -f $file                                  # remove file from trash
+			grep -wv "$file" $HOME/trash/.srm >L         # remove file from record
+			cat L >$HOME/trash/.srm
+			rm -f L
+		fi
+	done
+
+	for name in ${@:2}; do
+		if [ ! -e $name ]; then
+			echo "$name does not exist"
+			continue
+		fi
+
+		if echo "$name" | grep "$HOME" >>$HOME/trash/.srm; then
+			touch -m -c "$name" # touch time
+			mv $name $HOME/trash
+		else
+			echo "$PWD/$name" >>$HOME/trash/.srm
+			touch -m -c "$name" # touch time
+			mv $name $HOME/trash
+		fi
+	done
+	;;
+
+"-l") # list trash file contents
+	ls $HOME/trash
+	;;
+
+"-b") # recover trash to source directory
+	if [ "$2" == "file*" ]; then
+		for file in $HOME/trash/*; do
+			if [ ! -e $file ]; then
+				echo "the trash is empty"
+				break
+			fi
+			file=$(echo $file | cut -d '/' -f -5)
+			length=2
+			sourcePath=$(cat $HOME/trash/.srm | grep "$file")
+			movePath=$(echo $sourcePath | cut -d '/' -f -$length)
+			while [ -d $movePath ]; do
+				movePath=$(echo $sourcePath | cut -d '/' -f -$length)
+				length=$(($length + 1))
+			done
+			movePath=$(echo $sourcePath | cut -d '/' -f -$(($length - 1)))
+			mv $HOME/trash/$file $movePath # move ALL trash files to sources
+
+			grep -wv "$movePath" $HOME/trash/.srm >L
+			cat L >$HOME/trash/.srm
+			rm -f L # remove from record
+		done
+	else
+		for name in ${@:2}; do
+			if [ ! -e "$HOME/trash/$name" ]; then
+				echo "$name does not exist"
+				continue
+			fi
+			length=2
+			sourcePath=$(cat $HOME/trash/.srm | grep "$name")
+			movePath=$(echo $sourcePath | cut -d '/' -f -$length)
+
+			while [ -d $movePath ]; do
+				movePath=$(echo $sourcePath | cut -d '/' -f -$length)
+				length=$(($length + 1))
+			done
+			movePath=$(echo $sourcePath | cut -d '/' -f -$(($length - 1)))
+			mv $HOME/trash/$name $movePath # move trash file to source
+
+			grep -wv "$movePath" $HOME/trash/.srm >L
+			cat L >$HOME/trash/.srm # remove from record
+			rm L
+		done
+	fi
+	;;
+
+"-m") # recover trash to current directory
+	if [ "$2" == "file*" ]; then
+		if [ ! -e $file ]; then
+			echo "the trash is empty"
+			break
+		fi
+		mv $HOME/trash/* $PWD # move ALL trash files to current directory
+	else
+		for name in ${@:2}; do
+			if [ ! -e "$HOME/trash/$name" ]; then
+				echo "$name does not exist"
+				continue
+			fi
+
+			mv $HOME/trash/$name $PWD # move trash file to current dirctory
+		done
+	fi
+	;;
+
+*) # general case
+	for file in $*; do
+		if [ ! -e "$file" ]; then
+			echo "$file does not exist"
+			break
+		fi
+
+		if echo "$file" | grep "$HOME" >>$HOME/trash/.srm; then
+			touch -m -c "$file" # touch time
+			mv $file $HOME/trash
+		else
+			echo "$PWD/$file" >>$HOME/trash/.srm
+			touch -m -c "$file" # touch time
+			mv $file $HOME/trash
+		fi
+	done ;;
+esac

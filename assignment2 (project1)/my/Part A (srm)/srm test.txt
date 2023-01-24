@@ -1,0 +1,45 @@
+mshnwq@lamp ~/hw2$
+mshnwq@lamp ~/hw2$ vi test1.txt
+mshnwq@lamp ~/hw2$ vi test2.txt
+mshnwq@lamp ~/hw2$ mkdir test
+mshnwq@lamp ~/hw2$ cd test/
+mshnwq@lamp ~/hw2/test$ vi inside.txt
+mshnwq@lamp ~/hw2/test$ ls
+inside.txt
+mshnwq@lamp ~/hw2/test$ cd ..
+mshnwq@lamp ~/hw2$ ls
+test  test1.txt  test2.txt
+mshnwq@lamp ~/hw2$ srm -l
+mshnwq@lamp ~/hw2$ srm test1
+test1 does not exist
+mshnwq@lamp ~/hw2$ srm test1.txt
+mshnwq@lamp ~/hw2$ ls
+test  test2.txt
+mshnwq@lamp ~/hw2$ smr test2.txt
+-bash: smr: command not found
+mshnwq@lamp ~/hw2$
+mshnwq@lamp ~/hw2$ srm test2.txt
+mshnwq@lamp ~/hw2$ srm ./test/inside.txt
+mshnwq@lamp ~/hw2$ srm -l
+inside.txt  test2.txt
+mshnwq@lamp ~/hw2$ srm -m inside.txt
+mshnwq@lamp ~/hw2$ ls
+inside.txt  test
+mshnwq@lamp ~/hw2$ srm inside.txt
+mshnwq@lamp ~/hw2$ ls
+test
+mshnwq@lamp ~/hw2$ srm -m file*
+mshnwq@lamp ~/hw2$ ls
+inside.txt  test  test2.txt
+mshnwq@lamp ~/hw2$ mv inside.txt ./test
+mshnwq@lamp ~/hw2$ ls
+test  test2.txt
+mshnwq@lamp ~/hw2$ srm test2.txt
+mshnwq@lamp ~/hw2$ cd test
+mshnwq@lamp ~/hw2/test$ srm inside.txt
+mshnwq@lamp ~/hw2/test$ ls
+mshnwq@lamp ~/hw2/test$ srm -b test2.txt
+mshnwq@lamp ~/hw2/test$ ls ../
+test  test2.txt
+
+

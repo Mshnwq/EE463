@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# -----------------------------------------------------
+# Function: Fills a template message from a list of names
+# Author: Hayan Al-Machnouk
+# Last Updated: 12/22/2022
+# -----------------------------------------------------
+
+if [ ! -e $1 ]; then
+        echo "$1 Does not exist"
+        exit 0
+elif [ ! -e $3 ]; then
+        echo "$3 Does not exist"
+        exit 0
+fi
+
+while read name; do
+        echo -e "To: $name \t\t Date: $(date +'%D')" >> "letter-to-$name"
+        cat $1 >> "letter-to-$name"
+        sed -i "s/$2/$name/g" "letter-to-$name" # stream editor
+done < "$3"

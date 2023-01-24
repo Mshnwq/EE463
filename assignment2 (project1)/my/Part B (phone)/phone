@@ -1,0 +1,107 @@
+#!/bin/bash
+
+# -----------------------------------------------------
+# Function: Create and maintain a phonebook
+# Author: Hayan Al-Machnouk
+# Last Updated: 12/22/2022
+# -----------------------------------------------------
+
+if [ ! -d "$HOME/phonelist" ]; then
+        touch $HOME/phonelist
+        chmod 777 $HOME/phonelist
+fi
+
+if [ $# -ge 1 ]; then
+        case "$1" in
+        "-a") # adding a record
+                if [ $# -eq 3 ]; then
+                        if grep -wq "$2 $3" $HOME/phonelist; then
+                                echo "$2 $3 Already Exists"
+                                exit 0
+                        else
+                                echo "$2 $3" >>$HOME/phonelist
+                        fi
+                else
+                        echo "Invalid Arguments, Need a {Name Number} Pair"
+                        exit 0
+                fi
+                ;;
+        "-s") # search a record
+                if [ $# -eq 2 ]; then
+                        if grep "$2" $HOME/phonelist; then
+                                exit 1
+                        else
+                                echo "$2 Does not Exist"
+                                exit 0
+                        fi
+                else
+                        echo "Invalid Arguments, Need only a Name to search"
+                        exit 0
+                fi
+                ;;
+        "-r") # replace a record
+                if [ $# -eq 3 ]; then
+                        if grep -wv "$2" $HOME/phonelist >val1 && grep -w "$2" $HOME/phonelist >val2; then
+                                sed -i "s/$2/$3/g" val2 # stream editor
+                                cat val1 >$HOME/phonelist && cat val2 >>$HOME/phonelist
+                                rm -f val1 val2
+                                exit 1
+                        else
+                                echo "$2 Does not Exist"
+                                exit 0
+                        fi
+                else
+                        echo "Invalid Arguments, Need a {Name Name or Number Number} Pair"
+                        exit 0
+                fi
+                ;;
+        "-d") # delete records
+                if [ $# -eq 3 ]; then
+                        if grep -wq "$2 $3" $HOME/phonelist; then
+                                grep -wv "$2 $3" $HOME/phonelist >val
+                                cat val >$HOME/phonelist
+                                rm -f val
+                                exit 1
+                        else
+                                echo "$2 $3 Does not Exist"
+                                exit 0
+                        fi
+                elif [ $# -eq 2 ]; then
+                        if grep -wq "$2" $HOME/phonelist; then
+                                grep -wv "$2" $HOME/phonelist >val
+                                cat val >$HOME/phonelist
+                                rm -f val
+                                exit 1
+                        else
+                                echo "$2 Does not Exist"
+                                exit 0
+                        fi
+                else
+                        echo "Invalid Arguments, Need a {Name Number} Pair or just a Name or Number"
+                        exit 0
+                fi
+                ;;
+
+        "-l") # list records
+                cat $HOME/phonelist
+                exit 1
+                ;;
+
+        *) # defualt search if one arg
+                if [ $# -eq 1 ]; then
+                        if grep "$1" $HOME/phonelist; then
+                                exit 1
+                        else
+                                echo "$1 Does not Exist"
+                                exit 0
+                        fi
+                else
+                        echo "Invalid Command or Argument"
+                fi
+                ;;
+
+        esac
+else # default list record
+        cat $HOME/phonelist
+        exit 1
+fi
