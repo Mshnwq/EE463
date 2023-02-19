@@ -1,0 +1,120 @@
+1740574
+python ./pagetablesize.py -v 20 -e 8 -p 4k
+python ./pagetrans.py -a 8k -p 8k -r 32k -s 104 
+
+
+1743292
+python ./pagetablesize.py -v 38 -e 2 -p 16k
+python ./pagetrans.py -a 32k -p 4k -r 128k -s 100 
+
+
+1845570
+python ./pagetablesize.py -v 20 -e 2 -p 2K
+python ./pagetrans.py -a 8k -p 4k -r 64k -s 105 
+
+
+1845718
+python ./pagetablesize.py -v 32 -e 16 -p 4k
+python ./pagetrans.py -a 32k -p 8k -r 128k -s 105 
+
+
+1845973
+python ./pagetablesize.py -v 38 -e 1 -p 8k
+python ./pagetrans.py -a 4k -p 1k -r 128k -s 107 
+
+
+1847902
+python ./pagetablesize.py -v 16 -e 1 -p 2K
+python ./pagetrans.py -a 8k -p 2k -r 64k -s 100 
+
+
+1849560
+python ./pagetablesize.py -v 38 -e 2 -p 8k
+python ./pagetrans.py -a 8k -p 2k -r 32k -s 105 
+
+
+1851778
+python ./pagetablesize.py -v 32 -e 16 -p 1m
+python ./pagetrans.py -a 8k -p 1k -r 64k -s 109 
+
+
+1854399
+python ./pagetablesize.py -v 38 -e 2 -p 16k
+python ./pagetrans.py -a 8k -p 1k -r 32k -s 101 
+
+
+1855121
+python ./pagetablesize.py -v 38 -e 8 -p 4k
+python ./pagetrans.py -a 8k -p 1k -r 128k -s 104 
+
+
+1855394
+python ./pagetablesize.py -v 20 -e 2 -p 4k
+python ./pagetrans.py -a 8k -p 8k -r 128k -s 101 
+
+
+1855911
+python ./pagetablesize.py -v 38 -e 2 -p 2K
+python ./pagetrans.py -a 4k -p 1k -r 32k -s 104 
+
+
+1935944
+python ./pagetablesize.py -v 20 -e 8 -p 8k
+python ./pagetrans.py -a 8k -p 2k -r 32k -s 102 
+
+
+1936005
+python ./pagetablesize.py -v 32 -e 8 -p 4k
+python ./pagetrans.py -a 16k -p 8k -r 64k -s 102 
+
+
+1936528
+python ./pagetablesize.py -v 38 -e 2 -p 1m
+python ./pagetrans.py -a 8k -p 2k -r 32k -s 107 
+
+
+1936535
+python ./pagetablesize.py -v 32 -e 1 -p 8k
+python ./pagetrans.py -a 4k -p 2k -r 16k -s 106 
+
+
+1937123
+python ./pagetablesize.py -v 32 -e 8 -p 4k
+python ./pagetrans.py -a 16k -p 8k -r 64k -s 106 
+
+
+1937555
+python ./pagetablesize.py -v 38 -e 2 -p 2K
+python ./pagetrans.py -a 4k -p 4k -r 32k -s 104 
+
+
+1941295
+python ./pagetablesize.py -v 38 -e 16 -p 2K
+python ./pagetrans.py -a 8k -p 2k -r 128k -s 102 
+
+
+1943102
+python ./pagetablesize.py -v 20 -e 1 -p 8k
+python ./pagetrans.py -a 4k -p 1k -r 32k -s 104 
+
+
+1943451
+python ./pagetablesize.py -v 32 -e 1 -p 2K
+python ./pagetrans.py -a 8k -p 1k -r 128k -s 106 
+
+
+1945603
+python ./pagetablesize.py -v 20 -e 1 -p 8k
+python ./pagetrans.py -a 16k -p 1k -r 64k -s 102 
+
+
+1945954
+python ./pagetablesize.py -v 20 -e 4 -p 2K
+python ./pagetrans.py -a 4k -p 2k -r 16k -s 101 
+
+
+12
+[1|11] 
+
+20
+[9|11]
