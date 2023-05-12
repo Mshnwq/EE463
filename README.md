@@ -1,3 +1,3 @@
 # EE463
 
-# This a repository for Labratory activities
+# This a repository for all activities
